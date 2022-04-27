@@ -1,0 +1,14 @@
+import java.uitl.Vector;
+class Vectors
+{
+public static void main(String args[])
+{
+Vector<String> v=new Vector<String>();
+v.add("dharani");
+v.add("bhanu");
+v.add(2,"niharika");
+v.add("manish");
+v.add("vat");
+System.out.println(v.get(2));
+}
+}
