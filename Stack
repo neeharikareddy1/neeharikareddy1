@@ -1,0 +1,13 @@
+import java.util.stack;
+class StackDemo
+{
+public static viod main(String args[])
+{
+Stack<String> stack=new Stack<String>();
+stack.push("dharani");
+stack.push("bhanu");
+stack.push("manish");
+stack.push("niharika");
+System.out.println(stack);
+}
+}
